@@ -1,0 +1,15 @@
+# Virtual environment - this is your personal "toolbox" of installed
+# packages. It's huge, machine-specific, and rebuildable from
+# requirements.txt, so it should never be uploaded to GitHub.
+venv/
+
+# Python's own cache files - auto-generated, never worth saving.
+__pycache__/
+*.pyc
+
+# Streamlit's local settings folder (if one gets created).
+.streamlit/
+
+# Common editor/OS clutter.
+.vscode/
+.DS_Store
